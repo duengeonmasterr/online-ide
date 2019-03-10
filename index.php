@@ -3,20 +3,20 @@
 <head>
   
     
-        <meta charset="utf-8">
+         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>codebreak</title>
+        <title>codebreak.h</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/normalize.css">
+		<link rel="icon" type="image/jpeg" href="img/icon.jpeg">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/style.css">
         
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <script src="js/vendor/jquery-1.12.0.min.js"></script>
-
 
 
 
@@ -32,7 +32,7 @@
   <div class="col-sm-12">
   <nav class="navbar navbar-inverse navbar-fixed-top nbar">
     <div class="navbar-header">
-      <a class="navbar-brand lspace" href="home.php">codebreak</a>
+      <a class="navbar-brand lspace" href="home.php">codebreak.h</a>
     </div>
     <ul class="nav navbar-nav">
       <li class="space"><a href="compiler.php"><i class="fa fa-code ispace"></i>CodeBreak</a></li>
