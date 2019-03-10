@@ -12,8 +12,8 @@
 	$command=$CC." -lm ".$filename_code;	
 	$command_error=$command." 2>".$filename_error;
 
-	//if(trim($code)=="")
-	//die("The code area is empty");
+	if(trim($code)=="")
+	die("The code area is empty");
 	
 	$file_code=fopen($filename_code,"w+");
 	fwrite($file_code,$code);
