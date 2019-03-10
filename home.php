@@ -133,7 +133,7 @@ $(document).ready(function(){
 </script>
 
 <label for="out">Output</label>
-<textarea id='div' class="form-control" name="output" rows="10" cols="50"></textarea><br><br>
+<textarea id='div' class="form-control" name="output" rows="10" cols="50" readonly></textarea><br><br>
 
 <!--<script>
 "use strict";
@@ -176,7 +176,7 @@ function submitForm(oFormElement)
 <div class="fm">
 
 <b>Beta Version-2019</b><br>
-<b>Developed By HARSHIT</b>
+<b><a href="https://github.com/duengeonmasterr" target="_blank">Developed By HARSHIT</a></b>
 
 </div>
 </div>

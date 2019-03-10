@@ -100,8 +100,8 @@
 }
 
 .fm
-{
-	margin-left: 100px;
+{   text-align:center;
+	
 }
 
 .fspace
@@ -266,11 +266,16 @@ pre {
 
 }
 
+.fm
+{   text-align:center;
+	
+}
+
 
 
 }
 
-@media only screen and (max-width:845px) and (min-width:769px)
+@media only screen and (max-width:1009px) and (min-width:769px)
 {
 
 .lspace
@@ -313,11 +318,16 @@ pre {
 
 }
 
+.fm
+{   text-align:center;
+	
+}
+
 
 
 }
 
-@media only screen and (max-width:770px) and (min-width:200px)
+@media only screen and (max-width:768px) and (min-width:200px)
 {
 
 
@@ -371,6 +381,11 @@ pre {
 	border-radius: 5px;
 	margin-bottom:10px;
 
+}
+
+.fm
+{   text-align:center;
+	
 }
 
 
@@ -428,6 +443,11 @@ pre {
 	margin-bottom:10px;
 
 }
+
+.fm
+{   text-align:center;
+	
+}
 }
 
 @media only screen and (max-width:1010px) and (min-width:846px)
@@ -476,6 +496,11 @@ pre {
 	border-radius: 5px;
 	margin-bottom:10px;
 
+}
+
+.fm
+{   text-align:center;
+	
 }
 
 
