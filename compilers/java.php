@@ -14,8 +14,10 @@
 	$command_error=$command." 2>".$filename_error;
 	$runtime_error_command=$out." 2>".$runtime_file;
 
-	//if(trim($code)=="")
-	//die("The code area is empty");
+	
+	
+	if(trim($code)=="")
+	die("The code area is empty");
 	
 	$file_code=fopen($filename_code,"w+");
 	fwrite($file_code,$code);
@@ -44,11 +46,9 @@
 			$out=$out." < ".$filename_in;
 			$output=shell_exec($out);
 		}
-		//echo "<pre>$runtime_error</pre>";
-		//echo "<pre>$output</pre>";
+		
 		echo "$output";
-		  //echo "<textarea id='div' class=\"form-control\" name=\"output\" rows=\"10\" cols=\"50\">$output</textarea><br><br>";
-	}
+		}
 	else if(!strpos($error,"error"))
 	{
 		echo "<pre>$error</pre>";
@@ -61,10 +61,9 @@
 			$out=$out." < ".$filename_in;
 			$output=shell_exec($out);
 		}
-		//echo "<pre>$output</pre>";
+		
 		echo "$output";
-		  //echo "<textarea id='div' class=\"form-control\" name=\"output\" rows=\"10\" cols=\"50\">$output</textarea><br><br>";
-	}
+		  }
 	else
 	{
 		echo "<pre>$error</pre>";
